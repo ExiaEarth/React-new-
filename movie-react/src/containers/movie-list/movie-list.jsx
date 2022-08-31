@@ -1,9 +1,11 @@
 import MovieListItem from "./movie-list-item";
+import style from "./movie-list.module.scss";
+
 
 const MovieList=(props)=>{
     const { movies }=props;
     return(
-        <div>
+        <div className={style.movieGrid}>
             { movies.map(
                 movie => <MovieListItem 
                 key={movie.id}

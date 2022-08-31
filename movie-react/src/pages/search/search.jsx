@@ -1,8 +1,10 @@
 import axios from "axios"; 
 // importe axios avec npm i --s axios
+
 import { useState } from "react";
-import MovieList from "../../containers/movie-list/movie-list";
 // importe react avec npm i --s react
+
+import MovieList from "../../containers/movie-list/movie-list";
 import SearchBar from "../../containers/search-bar/search-bar";
 // importe SearchBar pour avoir ma SearchBar
 const Search=()=> {

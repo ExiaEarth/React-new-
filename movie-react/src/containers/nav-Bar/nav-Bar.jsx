@@ -7,7 +7,7 @@ const NavBar=()=>{
         <nav className={style.nav}>
             <Link to="/search">Search</Link>
             <Link to="/popular">Popular</Link>
-            <Link to="/noplaying">Now Playing</Link>
+            <Link to="/nowplaying">Now Playing</Link>
         </nav>
     )
 }

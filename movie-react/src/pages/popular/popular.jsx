@@ -26,6 +26,7 @@ const Popular=()=>{
 
     return(
         <div >
+            <h1>{page}</h1>
             <button onClick={handleClick}>Click</button>
             <button onClick={resetPage}>return</button>
             <MovieList movies={movies}></MovieList>
